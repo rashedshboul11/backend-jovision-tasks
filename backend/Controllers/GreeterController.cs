@@ -9,8 +9,7 @@ namespace backend.Controllers
         [HttpGet]
         public IActionResult Greet([FromQuery] string name = "anonymous")
         {
-            return Ok($"Hello {name}");
-            
+            return Ok($"Hello {name}"); 
         }
     }
 }
