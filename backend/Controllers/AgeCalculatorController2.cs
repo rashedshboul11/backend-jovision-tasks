@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace backend.Controllers;
 
 [ApiController]
-[Route("api/getAge")]
+[Route("api/[controller]")]
 
 public class AgeCalculatorController2 : Controller
 {
