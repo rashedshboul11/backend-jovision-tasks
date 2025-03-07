@@ -48,7 +48,7 @@ public class FileUploadController : ControllerBase
                 FileName = fileName,
                 OwnerName = ownerName,
                 UploadedAt = DateTime.UtcNow,
-                modifiedAt = DateTime.UtcNow,
+                ModifiedAt = DateTime.UtcNow,
                 FileSize = file.Length
             };
             var metadataJson = JsonSerializer.Serialize(metadata , new JsonSerializerOptions { WriteIndented = true});
